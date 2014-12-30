@@ -1,0 +1,9 @@
+{
+    "name": "Zepto",
+    "dependence": [],
+    "source": "src",
+    "file_list": [
+      "Zepto.js",
+      "Zepto.d.ts"
+    ]
+}

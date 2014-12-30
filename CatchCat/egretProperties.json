@@ -1,0 +1,27 @@
+{
+	"document_class": "GameApp",
+	"game_dir_tree": [
+		"bin-debug/",
+		"launcher/",
+		"resource/",
+		"src/"
+	],
+	"support_path": [
+		"E:\\egret\\projects\\AndroidCatchCat\\proj.android\\assets\\"
+	],
+	"native": {
+		"path_ignore": []
+	},
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "gui"
+		},
+		{
+			"name": "dragonbones"
+		}
+	],
+	"egret_version": "1.1.3"
+}

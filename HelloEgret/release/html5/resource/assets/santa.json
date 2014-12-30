@@ -1,0 +1,15 @@
+﻿{
+"res":{
+	"santa0000": {"x":0,"y":0,"w":360,"h":170},
+	"santa0001": {"x":0,"y":170,"w":360,"h":170}
+},
+"frames": {
+	"santa": {
+		"totalFrame": 2,
+		"childrenFrame": [
+			{"res":"santa0000","x":0,"y":0},
+			{"res":"santa0001","x":0,"y":0}
+		]
+	}
+}
+}

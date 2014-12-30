@@ -1,0 +1,8 @@
+{"file":"scorepanel.png","frames":{
+"img_over_410x420":{"x":1,"y":1,"w":398,"h":414,"offX":8,"offY":3,"sourceW":410,"sourceH":420},
+"img_sharelight_640x600":{"x":1,"y":417,"w":640,"h":600,"offX":0,"offY":0,"sourceW":640,"sourceH":600},
+"img_sharestar_560x500":{"x":643,"y":1,"w":527,"h":452,"offX":15,"offY":25,"sourceW":560,"sourceH":500},
+"img_toshare_430x510":{"x":643,"y":455,"w":418,"h":503,"offX":6,"offY":3,"sourceW":430,"sourceH":510},
+"img_share_title_240x40":{"x":643,"y":960,"w":240,"h":40,"offX":0,"offY":0,"sourceW":240,"sourceH":40},
+"img_rank_260x120":{"x":1063,"y":455,"w":260,"h":120,"offX":0,"offY":0,"sourceW":260,"sourceH":120},
+"img_again_260x100":{"x":1172,"y":1,"w":260,"h":100,"offX":0,"offY":0,"sourceW":260,"sourceH":100}}}

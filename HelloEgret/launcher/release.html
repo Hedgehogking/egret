@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>圣诞接礼物</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=device-dpi"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <style>
+        body {
+            text-align: center;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        html {
+            -ms-touch-action: none; /* Direct all pointer events to JavaScript code. */
+            overflow: hidden;
+        }
+        div, canvas {
+            display:block;
+            position:absolute;
+            margin: 0 auto;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+<div style="position:relative;" id="gameDiv"></div>
+<script>var document_class = "GameApp";</script><!--这部分内容在编译时会被替换，要修改文档类，请到工程目录下的egretProperties.json内编辑。-->
+<script src="launcher/egret_require.js"></script>
+<script src="launcher/egret_loader.js"></script>
+<script src="launcher/game-min.js"></script>
+<script>
+    var params = {
+        name: 'MyName',
+        highestScore: 100,
+        times: 3,
+        gameTime: 10,
+        rankUrl: 'http://wwww.dmxapp.com',
+        language_type:'en',
+        language: {
+            game:{
+                zh_CN:{
+                    btn_start:'开始游戏',
+                    scorepanel_rank:'排名',
+                    scorepanel_highest:'最高分',
+                    scorepanel_chance1:'还有',
+                    scorepanel_chance2:'次机会',
+                    scorepanel_btn_rank:'看谁礼物多',
+                    scorepanel_btn_restart:'再接再礼！',
+                    sharepanel_title:'分享更多快乐',
+                    sharepanel_text:'哎呀呀，礼物派完啦T_T.'
+                },
+                zh_TW:{
+                    btn_start:'开始游戏',
+                    scorepanel_rank:'排名',
+                    scorepanel_highest:'最高分',
+                    scorepanel_chance1:'还有',
+                    scorepanel_chance2:'次机会',
+                    scorepanel_btn_rank:'看谁礼物多',
+                    scorepanel_btn_restart:'再接再礼！',
+                    sharepanel_title:'分享更多快乐',
+                    sharepanel_text:'哎呀呀，礼物派完啦T_T.'
+                },
+                en:{
+                    btn_start:'Start Game',
+                    scorepanel_rank:'Rank',
+                    scorepanel_highest:'Highest',
+                    scorepanel_chance1:'You have',
+                    scorepanel_chance2:'chance(s)',
+                    scorepanel_btn_rank:'Go Rankings',
+                    scorepanel_btn_restart:'More Gifts',
+                    sharepanel_title:'Share more fun',
+                    sharepanel_text:'Oh~~There is no gift T_T'
+                }
+            },
+            rank:{
+
+            }
+        }
+    }
+    var lanLib = params.language.game[params.language_type];
+    function Params(){
+        return params;
+    }
+    egret_h5.startGame();
+    function postGameStart(){
+//        $.ajax({
+//            url:'',
+//            type:'post',
+//            dataType:'json',
+//            data:{
+//                action:'check_fruad'
+//            },
+//            success:function(data){
+//                window.random_key = data.data;
+//            }
+//        })
+    }
+    function postScore(score){
+//        var post = $.ajax({
+//            url:'',
+//            type:'post',
+//            dataType:'json',
+//            data:{
+//                action:'get_result',
+//                random_key:window.random_key,
+//                score:score
+//            },
+//            success:function(data){
+//                return data;
+//            }
+//        })
+//        return post;
+    }
+</script>
+</body>
+</html>

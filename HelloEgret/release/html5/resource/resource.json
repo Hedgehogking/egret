@@ -1,0 +1,34 @@
+{
+"resources":
+	[
+        {"name":"description","type":"json","url":"config/description.json"},
+
+
+	  	{"name":"gameBg","type":"image","url":"assets/bg_640x1008.jpg"},
+	  	{"name":"bannerBg","type":"image","url":"assets/bg_topbar_640x132.png"},
+	  	{"name":"bannerColor","type":"image","url":"assets/img_topbar_color_640x40.png"},
+		{"name":"bannerColorCover","type":"image","url":"assets/img_topbar_colorCover_640x40.png"},
+
+		{"name":"btn_bg","type":"image","url":"assets/btn_bg_228x101.png"},
+		{"name":"santa_png","type":"image","url":"assets/santa.png"},
+		{"name":"santa_json","type":"json","url":"assets/santa.json"},
+
+		{"name":"gift1","type":"image","url":"assets/img_gift_1_66x62.png"},
+		{"name":"gift2","type":"image","url":"assets/img_gift_2_55x66.png"},
+		{"name":"gift3","type":"image","url":"assets/img_gift_3_58x58.png"},
+		{"name":"gift4","type":"image","url":"assets/img_gift_4_41x60.png"},
+	  	{"name":"gift5","type":"image","url":"assets/img_gift_5_39x54.png"},
+
+		{"name":"car","type":"image","url":"assets/img_car_153x97.png"},
+		{"name":"catchlight","type":"image","url":"assets/img_catchlight_158x70.png"},
+
+		{"name":"scorepanel_png","type":"image","url":"assets/scorepanel.png"},
+		{"name":"scorepanel_json","type":"sheet","url":"assets/scorepanel.json"},
+	  	{"name":"shareTitle","type":"image","url":"assets/img_shareTitle_210x38.png"}
+	],
+
+"groups":
+	[
+	  	{"name":"GameApp","keys":"gameBg,bannerBg,bannerColor,bannerColorCover,btn_bg,santa_png,santa_json,gift1,gift2,gift3,gift4,gift5,car,catchlight,scorepanel_png,scorepanel_json,shareTitle"}
+	]
+}

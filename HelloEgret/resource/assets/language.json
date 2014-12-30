@@ -1,0 +1,39 @@
+{
+  "game": {
+    "zh_CN": {
+      "btn_start": "开始游戏",
+      "scorepanel_rank": "排名",
+      "scorepanel_highest": "最高分",
+      "scorepanel_chance1": "还有",
+      "scorepanel_chance2": "次机会",
+      "scorepanel_btn_rank": "看谁礼物多",
+      "scorepanel_btn_restart": "再接再礼！",
+      "sharepanel_title": "分享更多快乐",
+      "sharepanel_text": "哎呀呀，礼物派完啦T_T."
+    },
+    "zh_TW": {
+      "btn_start": "开始游戏",
+      "scorepanel_rank": "排名",
+      "scorepanel_highest": "最高分",
+      "scorepanel_chance1": "还有",
+      "scorepanel_chance2": "次机会",
+      "scorepanel_btn_rank": "看谁礼物多",
+      "scorepanel_btn_restart": "再接再礼！",
+      "sharepanel_title": "分享更多快乐",
+      "sharepanel_text": "哎呀呀，礼物派完啦T_T."
+    },
+    "en": {
+      "btn_start": "Start Game",
+      "scorepanel_rank": "Rank",
+      "scorepanel_highest": "Highest",
+      "scorepanel_chance1": "You have",
+      "scorepanel_chance2": "chance(s)",
+      "scorepanel_btn_rank": "Go Rankings",
+      "scorepanel_btn_restart": "More Gifts",
+      "sharepanel_title": "Share more fun",
+      "sharepanel_text": "Oh~~There is no gift T_T"
+    }
+  },
+  "rank": {
+  }
+}
